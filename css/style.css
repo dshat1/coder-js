@@ -1,0 +1,76 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, button {
+    display: block;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003d80;
+}
+
+#historial {
+    list-style-type: none;
+    padding: 0;
+}
+
+#historial li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+/* Botones de editar y eliminar */
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:first-child {
+    background-color: #f4b400; /* Color de botón editar */
+    color: #fff;
+}
+
+button:last-child {
+    background-color: #d9534f; /* Color de botón eliminar */
+    color: #fff;
+}

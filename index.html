@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Servicios del Gobierno Argentino</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Simulador de Servicios del Gobierno Argentino</h1>
+    <form id="consultaForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        
+        <label for="servicio">Servicio:</label>
+        <input type="text" id="servicio" required>
+        
+        <button type="submit">Realizar Consulta</button>
+    </form>
+
+    <section>
+        <h2>Historial de Consultas</h2>
+        <ul id="historial"></ul>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
